@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: ['react', 'react-hooks'],
-  extends: ['plugins:react/recommended'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
+  extends: ['plugins:react/recommended', 'plugin:jsx-a11y/recommended'],
   rules: {
     // react
     'react/destructuring-assignment': 'off',
