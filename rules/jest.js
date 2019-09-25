@@ -1,8 +1,8 @@
 module.exports = {
-  plugins: ['jest'],
   overrides: {
-    files: ['**/*.spec.js', '**/*.spec.jsx', '**/*.spec.ts', '**/*.spec.tsx'],
+    files: ['**/*.spec.{js,jsx,ts,tsx}'],
     extends: ['plugin:jest/recommended'],
+    plugins: ['jest'],
     env: {
       'jest/globals': true,
     },

@@ -4,7 +4,7 @@
   "description": "Eslint configuration for sibu web projects",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint '*.{js,mjs}' 'src/**/*.{js,mjs}'",
+    "lint": "eslint '*.js' 'rules/*.js'",
     "test": "npm run lint"
   },
   "repository": {
