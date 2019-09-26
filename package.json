@@ -1,32 +1,26 @@
 {
-  "name": "@sibipro/eslint-config",
+  "name": "eslint-config",
   "version": "0.0.0",
-  "description": "Eslint configuration for sibu web projects",
-  "main": "index.js",
+  "private": true,
+  "description": "Configure eslint for sibi",
   "scripts": {
-    "lint": "eslint '*.js' 'rules/*.js'",
+    "lint": "eslint '*.js' 'packages/**/*.js'",
     "test": "npm run lint"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sibipro/eslint-config.git"
   },
   "keywords": [],
-  "files": [
-    "rules/",
-    "index.js",
-    "CHANGELOG.md",
-    "AUTHORS.md"
-  ],
   "author": "Sibi (https://github.com/sibipro)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sibipro/eslint-config/issues"
-  },
   "homepage": "https://github.com/sibipro/eslint-config",
+  "license": "MIT",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run test"
     }
   },
   "prettier": {
@@ -34,27 +28,10 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.3.1",
-    "@typescript-eslint/parser": "^2.3.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.11.0",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "prettier": "^1.16.4"
-  },
   "devDependencies": {
     "eslint": "^6.4.0",
     "husky": "^3.0.5",
-    "lint-staged": "^9.3.0",
-    "typescript": "^3.6.3"
-  },
-  "peerDependencies": {
-    "eslint": "^6.4.0",
+    "oao": "^1.7.0",
     "prettier": "^1.16.4"
   }
 }

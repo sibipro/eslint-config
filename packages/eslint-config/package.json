@@ -1,0 +1,34 @@
+{
+  "name": "@sibipro/eslint-config",
+  "version": "0.0.0",
+  "description": "Configure eslint for sibi projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibipro/eslint-config.git"
+  },
+  "keywords": ["sibi", "sibipro", "eslint"],
+  "files": [
+    "index.js"
+  ],
+  "author": "Sibi (https://github.com/sibipro)",
+  "homepage": "https://github.com/sibipro/eslint-config",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sibipro/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "prettier": "^1.16.4"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0",
+    "prettier": "^1.16.4"
+  }
+}

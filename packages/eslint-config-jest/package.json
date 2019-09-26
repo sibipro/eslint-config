@@ -1,0 +1,30 @@
+{
+  "name": "@sibipro/eslint-config-jest",
+  "version": "0.0.0",
+  "description": "Configure eslint for sibi projects using Jest",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibipro/eslint-config.git"
+  },
+  "keywords": ["sibi", "sibipro", "eslint", "jest"],
+  "files": [
+    "index.js"
+  ],
+  "author": "Sibi (https://github.com/sibipro)",
+  "homepage": "https://github.com/sibipro/eslint-config",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sibipro/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^22.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0",
+    "jest": "^24.9.0"
+  }
+}

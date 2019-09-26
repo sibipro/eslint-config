@@ -1,0 +1,32 @@
+{
+  "name": "@sibipro/eslint-config-react",
+  "version": "0.0.0",
+  "description": "Configure eslint for sibi projects using React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibipro/eslint-config.git"
+  },
+  "keywords": ["sibi", "sibipro", "eslint", "react"],
+  "files": [
+    "index.js"
+  ],
+  "author": "Sibi (https://github.com/sibipro)",
+  "homepage": "https://github.com/sibipro/eslint-config",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sibipro/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-hooks": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.4.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
