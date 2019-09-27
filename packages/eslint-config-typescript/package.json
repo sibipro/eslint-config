@@ -1,6 +1,6 @@
 {
   "name": "@sibipro/eslint-config-typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Configure eslint for sibi projects using Typescript",
   "main": "index.js",
   "publishConfig": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/sibipro/eslint-config.git"
   },
-  "keywords": ["sibi", "sibipro", "eslint", "typescript"],
+  "keywords": [
+    "sibi",
+    "sibipro",
+    "eslint",
+    "typescript"
+  ],
   "files": [
     "index.js"
   ],
