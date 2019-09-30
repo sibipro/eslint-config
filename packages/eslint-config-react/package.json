@@ -26,6 +26,7 @@
     "url": "https://github.com/sibipro/eslint-config/issues"
   },
   "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.11.0",
     "eslint-plugin-react-hooks": "^2.0.1"
   },
