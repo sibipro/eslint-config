@@ -17,10 +17,17 @@ module.exports = {
   plugins: ['prettier', 'import'],
   rules: {
     strict: 'off',
+    'no-debugger': 'error',
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: ['**/*.spec.{js,jsx,ts,tsx}', 'lint-staged.config.js'],
+        devDependencies: [
+          '*.spec.{js,jsx,ts,tsx}',
+          'lint-staged.config.js',
+          'jest.config.js',
+          'next.config.js',
+          'plopfile.js',
+        ],
       },
     ],
     'import/order': [
@@ -29,6 +36,7 @@ module.exports = {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
       },
     ],
+    'import/newline-after-import': 'error',
     'prettier/prettier': 'error',
   },
 };
