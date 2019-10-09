@@ -16,11 +16,19 @@ yarn add -D @sibipro/eslint-config
 npx install-peerdeps --dev @sibipro/eslint-config-typescript
 ```
 
+In order for the typescript rules to work, you'll need to include parser information in your eslint config when extending this config. There may also be some addition things you want to add to `parserOptions`, but nothing else is required for this set of rules.
+
 ```json
 {
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
   "extends": ["@sibipro/eslint-config", "@sibipro/eslint-config-typescript"]
 }
 ```
+
+
 
 ## License
 
