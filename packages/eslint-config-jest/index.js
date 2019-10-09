@@ -1,14 +1,29 @@
 module.exports = {
   overrides: [
     {
-      files: ['**/*.spec.{js,jsx,ts,tsx}'],
       extends: ['plugin:jest/recommended'],
+      files: ['*.spec.{js,jsx,ts,tsx}'],
       plugins: ['jest'],
       env: {
         'jest/globals': true,
       },
       rules: {
-        'jest/expect-expect': 'error',
+        'jest/expect-expect': [
+          'error',
+          {
+            assertFunctionNames: [
+              'expect',
+              'getByLabelText',
+              'getByPlaceholderText',
+              'getByText',
+              'getByAltText',
+              'getByTitle',
+              'getByDisplayValue',
+              'getByRole',
+              'getByTestId',
+            ],
+          },
+        ],
         'jest/no-empty-title': 'error',
         'jest/no-export': 'error',
         'jest/no-if': 'error',
