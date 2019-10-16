@@ -11,6 +11,7 @@ module.exports = {
           'error',
           { argsIgnorePattern: '^_', args: 'after-used', ignoreRestSiblings: true },
         ],
+        '@typescript-eslint/indent': 'off',
       },
     },
     {
