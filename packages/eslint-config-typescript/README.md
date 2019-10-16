@@ -11,7 +11,7 @@ Monorepo for eslint configuration for sibi projects.
 Simply install the peer dependencies and then add this package to your eslint config's `extends` array, along with the base config.
 
 ```sh
-yarn add -D @sibipro/eslint-config
+yarn add -D @sibipro/eslint-config-typescript
 
 npx install-peerdeps --dev @sibipro/eslint-config-typescript
 ```
