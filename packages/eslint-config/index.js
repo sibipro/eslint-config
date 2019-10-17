@@ -13,7 +13,7 @@ module.exports = {
     },
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
   },
-  extends: ['prettier'],
+  extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier', 'import'],
   rules: {
     strict: 'off',

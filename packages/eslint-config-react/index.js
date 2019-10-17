@@ -1,6 +1,11 @@
 module.exports = {
   plugins: ['react', 'react-hooks', 'jsx-a11y'],
   extends: ['plugin:react/recommended', 'plugin:jsx-a11y/recommended'],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   rules: {
     // react
     'react-hooks/exhaustive-deps': 'warn',

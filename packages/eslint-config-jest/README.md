@@ -1,6 +1,6 @@
 # @sibipro/eslint-config-jest
 
-Monorpo for eslint configuration for sibi projects.
+Monorepo for eslint configuration for sibi projects.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/w33ble/eslint-config-sibi-web/master/LICENSE)
 [![Project Status](https://img.shields.io/badge/status-stable-limegreen.svg)](https://nodejs.org/api/documentation.html#documentation_stability_index)
@@ -11,7 +11,7 @@ Monorpo for eslint configuration for sibi projects.
 Simply install the peer dependencies and then add this package to your eslint config's `extends` array, along with the base config.
 
 ```sh
-yarn add -D @sibipro/eslint-config
+yarn add -D @sibipro/eslint-config-jest
 
 npx install-peerdeps --dev @sibipro/eslint-config-jest
 ```
