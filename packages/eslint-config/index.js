@@ -16,6 +16,7 @@ module.exports = {
   extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier', 'import'],
   rules: {
+    'max-lines': ['warn', { max: 800 }],
     strict: 'off',
     'no-debugger': 'error',
     'import/no-extraneous-dependencies': [

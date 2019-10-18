@@ -1,0 +1,41 @@
+{
+  "name": "@sibipro/eslint-config-react-native",
+  "version": "0.1.0",
+  "description": "Configure eslint for sibi projects using React Native",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sibipro/eslint-config.git"
+  },
+  "keywords": [
+    "sibi",
+    "sibipro",
+    "eslint",
+    "react-native"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "Sibi (https://github.com/sibipro)",
+  "homepage": "https://github.com/sibipro/eslint-config",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sibipro/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-react-native": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0"
+  },
+  "peerDependencies": {
+    "@sibipro/eslint-config": "0.1.3",
+    "@sibipro/eslint-config-react": "0.1.2",
+    "eslint": "^6.4.0",
+    "react": "^16.9.0",
+    "react-native": "^0.60.5"
+  }
+}
