@@ -1,6 +1,6 @@
 {
   "name": "@sibipro/eslint-config-jest",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Configure eslint for sibi projects using Jest",
   "main": "index.js",
   "publishConfig": {
