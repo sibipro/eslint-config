@@ -7,18 +7,14 @@ module.exports = {
     },
   },
   rules: {
-    'no-use-before-define': 'off',
-    'lines-between-class-members': 'off',
-    'class-methods-use-this': 'off',
     // react
-    'react/prop-types': ['warn', { skipUndeclared: true }],
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'error',
     'react/forbid-prop-types': 'error',
     'react/jsx-closing-tag-location': 'off', // defer to prettier
-    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.tsx'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-indent-props': 'off', // defer to prettier
     'react/jsx-indent': 'off', // defer to prettier
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
