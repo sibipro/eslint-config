@@ -1,6 +1,10 @@
 module.exports = {
-  plugins: ['react-native', 'react', 'jsx-a11y'],
+  plugins: ['react-native', 'react', 'jsx-a11y', 'import', '@typescript-eslint'],
   rules: {
+    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-unresolved': 'off',
+    'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
     camelcase: 'off',
     'global-require': 'off',
     'no-extend-native': 'off',
@@ -11,5 +15,6 @@ module.exports = {
     'no-param-reassign': 'off',
     'no-async-promise-executor': 'off',
     'func-names': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
   },
 };
