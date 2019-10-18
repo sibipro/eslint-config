@@ -7,6 +7,8 @@ module.exports = {
     },
   },
   rules: {
+    'no-use-before-define': 'off',
+    'lines-between-class-members': 'off',
     // react
     'react-hooks/exhaustive-deps': 'warn',
     'react-hooks/rules-of-hooks': 'error',

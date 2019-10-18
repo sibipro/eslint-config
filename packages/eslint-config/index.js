@@ -16,8 +16,12 @@ module.exports = {
   extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier', 'import'],
   rules: {
+    'max-lines': ['warn', { max: 800 }],
     strict: 'off',
     'no-debugger': 'error',
+    'no-underscore-dangle': 'off',
+    'no-plusplus': 'off',
+    'no-bitwise': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -34,6 +38,7 @@ module.exports = {
       'error',
       {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always',
       },
     ],
     'import/newline-after-import': 'error',
