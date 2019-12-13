@@ -26,15 +26,15 @@
     "url": "https://github.com/sibipro/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-plugin-react-native": "^3.7.0"
+    "eslint-plugin-react-native": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^6.4.0"
+    "eslint": "^6.7.2"
   },
   "peerDependencies": {
     "@sibipro/eslint-config": "^1.0.0",
     "@sibipro/eslint-config-react": "^1.0.0",
-    "eslint": "^6.4.0",
+    "eslint": "^6.7.2",
     "react": "^16.9.0",
     "react-native": "^0.60.5"
   }

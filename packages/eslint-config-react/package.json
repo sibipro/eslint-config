@@ -27,15 +27,15 @@
   },
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.11.0",
-    "eslint-plugin-react-hooks": "^2.0.1"
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^6.4.0"
+    "eslint": "^6.7.2"
   },
   "peerDependencies": {
     "@sibipro/eslint-config": "^1.0.0",
-    "eslint": "^6.4.0",
+    "eslint": "^6.7.2",
     "react": "^16.9.0"
   }
 }
