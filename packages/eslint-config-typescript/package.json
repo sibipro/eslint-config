@@ -1,6 +1,6 @@
 {
   "name": "@sibipro/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configure eslint for sibi projects using Typescript",
   "main": "index.js",
   "publishConfig": {
