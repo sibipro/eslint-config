@@ -34,7 +34,7 @@
     "typescript": "^3.7.3"
   },
   "peerDependencies": {
-    "@sibipro/eslint-config": "^1.0.0",
+    "@sibipro/eslint-config": "^1.1.0",
     "eslint": "^6.7.2",
     "typescript": "^3.7.3"
   }

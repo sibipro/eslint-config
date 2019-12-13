@@ -34,7 +34,7 @@
     "eslint": "^6.7.2"
   },
   "peerDependencies": {
-    "@sibipro/eslint-config": "^1.0.0",
+    "@sibipro/eslint-config": "^1.1.0",
     "eslint": "^6.7.2",
     "react": "^16.9.0"
   }
