@@ -24,7 +24,7 @@ module.exports = {
             ],
           },
         ],
-        'jest/no-empty-title': 'error',
+        'jest/valid-title': 'error',
         'jest/no-export': 'error',
         'jest/no-if': 'error',
         'jest/no-standalone-expect': 'error',
