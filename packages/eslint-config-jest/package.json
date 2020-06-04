@@ -34,6 +34,6 @@
   "peerDependencies": {
     "@sibipro/eslint-config": "^1.1.0",
     "eslint": "^7.1.0",
-    "jest": "^24.9.0"
+    "jest": "^26.0.1"
   }
 }
