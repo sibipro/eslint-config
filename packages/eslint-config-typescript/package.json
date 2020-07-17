@@ -31,11 +31,11 @@
   },
   "devDependencies": {
     "eslint": "^7.1.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.7"
   },
   "peerDependencies": {
     "@sibipro/eslint-config": "^1.1.0",
     "eslint": "^7.1.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.7"
   }
 }
