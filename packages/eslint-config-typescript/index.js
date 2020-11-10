@@ -12,6 +12,17 @@ module.exports = {
           { argsIgnorePattern: '^_', args: 'after-used', ignoreRestSiblings: true },
         ],
         '@typescript-eslint/indent': 'off',
+        'import/extensions': [
+          'error',
+          'ignorePackages',
+          {
+            ts: 'never',
+            tsx: 'never',
+            js: 'never',
+            jsx: 'never',
+            mjs: 'never',
+          },
+        ],
       },
     },
     {
