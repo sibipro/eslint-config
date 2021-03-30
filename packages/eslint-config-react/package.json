@@ -1,6 +1,6 @@
 {
   "name": "@sibipro/eslint-config-react",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Configure eslint for sibi projects using React",
   "main": "index.js",
   "publishConfig": {
@@ -34,7 +34,7 @@
     "eslint": "^7.23.0"
   },
   "peerDependencies": {
-    "@sibipro/eslint-config": "^1.1.0",
+    "@sibipro/eslint-config": "^2.0.0",
     "eslint": "^7.23.0",
     "react": "^16.13.1"
   }

@@ -1,6 +1,6 @@
 {
   "name": "@sibipro/eslint-config-cypress",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Configure eslint for sibi projects using Cypress",
   "main": "index.js",
   "publishConfig": {
@@ -32,7 +32,7 @@
     "eslint": "^7.23.0"
   },
   "peerDependencies": {
-    "@sibipro/eslint-config": "^1.1.0",
+    "@sibipro/eslint-config": "^2.0.0",
     "cypress": "^4.7.0",
     "eslint": "^7.23.0"
   }
