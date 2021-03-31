@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "eslint": "^7.23.0",
-    "husky": "~4.3.8",
+    "husky": "~6.0.0",
     "oao": "^2.0.1",
     "prettier": "^2.0.5"
   }
