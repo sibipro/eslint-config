@@ -29,12 +29,12 @@
     "eslint-plugin-react-native": "^3.8.1"
   },
   "devDependencies": {
-    "eslint": "^7.23.0"
+    "eslint": "^7.25.0"
   },
   "peerDependencies": {
     "@sibipro/eslint-config": "^2.0.0",
     "@sibipro/eslint-config-react": "^2.0.0",
-    "eslint": "^7.23.0",
+    "eslint": "^7.25.0",
     "react": "^16.13.1",
     "react-native": "^0.60.5"
   }
