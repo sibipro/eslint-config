@@ -26,7 +26,7 @@
     "url": "https://github.com/sibipro/eslint-config/issues"
   },
   "dependencies": {
-    "eslint-plugin-jest": "^24.3.2"
+    "eslint-plugin-jest": "^25.0.1"
   },
   "devDependencies": {
     "eslint": "^7.23.0"
