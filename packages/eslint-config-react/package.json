@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react": "^7.27.0",
     "eslint-plugin-react-hooks": "^4.0.4"
   },
   "devDependencies": {
